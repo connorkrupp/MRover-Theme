@@ -1,0 +1,23 @@
+/******************************************************************
+Theme Name: Napp Wordpress Theme
+Theme URI: http://www.nappdevelopment.com
+Description: This site was built using the Napp Wordpress Theme created by Napp Development LLC
+Author: Connor Krupp
+Author URI: http://www.connorkrupp.com
+Version: 1.0
+
+MAKE SURE TO READ BELOW BEFORE GETTING STARTED FOR THE FIRST TIME!
+------------------------------------------------------------------
+
+/*
+WordPress Probz
+So Theme Check (http://wordpress.org/plugins/theme-check/)
+is constantly telling me that it needs these classes in the CSS even
+though they are in the REAL stylesheet in library/css/style.css.
+So we're gonna drop these here to keep it happy.
+Great work, Theme Check (eye roll)
+*/
+
+.sticky {}          /* DO NOT EDIT THIS */
+.gallery-caption {} /* THESE ARE USELESS */
+.bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */
