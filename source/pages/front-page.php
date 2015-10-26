@@ -10,26 +10,60 @@
             <div class="home-hero">
               <div class="wrap">
                 <div class="hero-content">
-                  <h2>The Title</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni repellat dignissimos, debitis qui, sequi similique atque reprehenderit minus. Ex recusandae sit animi quos corrupti, aperiam consectetur iure incidunt deleniti repellat.</p>
+                  <h2>Title Here</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
               </div>
             </div>
 
-            <section class="entry-content cf" itemprop="articleBody">
-              <?php
-                wp_link_pages( array(
-                  'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'bonestheme' ) . '</span>',
-                  'after'       => '</div>',
-                  'link_before' => '<span>',
-                  'link_after'  => '</span>',
-                ) );
-              ?>
-            </section>
+            <div class="row-container one">
+              <div class="wrap">
+                <div class="row-content text-content">
+                  <h4>Title Here</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                </div>
+                <div class="row-content">
+                  <div class="block"></div>
+                </div>
+              </div>
+            </div>
 
-            <footer class="article-footer">
-              <?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
-            </footer>
+            <div class="row-container two">
+              <div class="wrap">
+                <div class="row-content">
+                  <div class="block"></div>
+                </div>
+                <div class="row-content text-content">
+                  <h4>Title Here</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-container three">
+              <div class="wrap">
+                <div class="row-content text-content">
+                  <h4>Title Here</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                </div>
+                <div class="row-content">
+                  <div class="block"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="join-donate-cta wrap">
+              <div class="cta">
+                <h6>Join?</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>Contact Us</button>
+              </div>
+              <div class="cta">
+                <h6>Donate?</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>Contact Us</button>
+              </div>
+            </div>
 
           </article>
 

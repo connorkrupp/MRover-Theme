@@ -7,9 +7,79 @@ Stylesheet: Front Page Stylesheet
 
 .home {
   .home-hero {
+    background-color: #16a085;
     .hero-content {
       width: 90%;
-      max-width: 440px;
+      max-width: 400px;
+      color: white;
+      padding: 80px 0;
     }
   }
+
+  .row-container {
+
+    &.two {
+      background-color: #ecf0f1;
+      .text-content {
+        padding-right: 0;
+        padding-left: 60px;
+      }
+    }
+
+    &.three {
+      background-color: #bdc3c7;
+    }
+
+    .wrap {
+      display: table;
+      max-width: 800px;
+    }
+
+    .row-content {
+      display:table-cell;
+      vertical-align: middle;
+    }
+
+    .text-content {
+      padding: 50px 0;
+      padding-right: 60px;
+
+      h4 {
+        font-size: 24px;
+        margin: 0;
+      }
+    }
+
+    .block {
+      width: 320px;
+      height: 200px;
+      background-color: #2c3e50;
+    }
+  }
+
+  .join-donate-cta {
+
+    .wrap {
+      max-width: 800px;
+    }
+    .cta {
+      width: 50%;
+      text-align: center;
+      padding: 40px 0;
+      float: left;
+
+      h6 {
+        font-size: 24px;
+        margin: 0;
+      }
+
+      p {
+        width: 80%;
+        margin: 10px auto 20px auto;
+        max-width: 400px;
+      }
+    }
+  }
+
+
 }

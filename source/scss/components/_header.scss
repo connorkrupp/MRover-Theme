@@ -7,7 +7,7 @@ Stylesheet: Header Stylesheet
 
 .header {
   background-color: $white;
-  padding: 40px 0;
+  padding: 20px 0;
 
   #logo {
     float: left;
@@ -18,7 +18,13 @@ Stylesheet: Header Stylesheet
     }
 
     img {
-      width: 300px;
+      width: 250px;
+    }
+
+    @media (max-width: 900px) {
+      float: none;
+      text-align: center;
+
     }
   }
 
@@ -26,7 +32,7 @@ Stylesheet: Header Stylesheet
     border: 0;
 
     ul {
-      margin-top:0;
+      margin-top:10px;
     }
 
     li {
@@ -35,7 +41,8 @@ Stylesheet: Header Stylesheet
 
       a {
         border-bottom: 0;
-        font-size: 22px;
+        font-size: 18px;
+        text-transform: uppercase;
         color: $black;
 
         /*
@@ -43,8 +50,7 @@ Stylesheet: Header Stylesheet
         has the possibility of being a mobile device.
         */
         &:hover, &:focus {
-          color: $white;
-          text-decoration: underline;
+          color: #F8C726;
         }
       }
 
@@ -121,5 +127,27 @@ Stylesheet: Header Stylesheet
       a {}
     }  /* end current highlighters */
 
+    @media (max-width: 900px) {
+      text-align: center;
+      display: block;
+      ul {
+        display: inline;
+        text-align: center;
+        margin: 10px auto 0 auto;
+        float: none;
+        li {
+          display: inline-block;
+          position: relative;
+          float: none;
+          a {
+            text-transform: uppercase;
+
+            &:hover {
+              color: #F8C726;
+            }
+          }
+        }
+      }
+    }
   } /* end .nav */
 }
