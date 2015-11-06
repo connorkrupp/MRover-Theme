@@ -5,7 +5,8 @@ Author: Connor Krupp
 Stylesheet: Front Page Stylesheet
 ******************************************************************/
 
-.front-page {
+.about-page {
+
   .row-container {
 
     &.two {
@@ -33,11 +34,6 @@ Stylesheet: Front Page Stylesheet
     .text-content {
       padding: 50px 0;
       padding-right: 60px;
-
-      h4 {
-        font-size: 24px;
-        margin: 0;
-      }
     }
 
     .block {
@@ -45,31 +41,27 @@ Stylesheet: Front Page Stylesheet
       height: 200px;
       background-color: #2c3e50;
     }
-  }
 
-  .join-donate-cta {
-
-    .wrap {
-      max-width: 800px;
-    }
-    .cta {
-      width: 50%;
+    .info-section {
+      width: 25%;
       text-align: center;
-      padding: 40px 0;
       float: left;
+      padding: 30px 0;
 
-      h6 {
-        font-size: 24px;
-        margin: 0;
+      .info-content {
+        padding: 0 20px;
       }
-
-      p {
-        width: 80%;
-        margin: 10px auto 20px auto;
-        max-width: 400px;
+      .info-block {
+        margin: 0 auto;
+        width: 160px;
+        height: 120px;
+        background-color: #2c3e50;
       }
     }
   }
-
-
+  .info-row-container {
+    .wrap {
+      max-width: 1000px;
+    }
+  }
 }
