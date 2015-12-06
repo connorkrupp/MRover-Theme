@@ -10,8 +10,8 @@
             <div class="hero">
               <div class="wrap">
                 <div class="hero-content">
-                  <h2>Title Here</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  <h2>Michigan Mars Rover Team</h2>
+    <p>We are a student-run organization at the University of Michigan in Ann Arbor. Our goal as an organization to is to, each year, design, build, and test a  mars rover to compete at the NASA sponsored University Rover Challenge. Our members consist of everyone from freshman to graduate students and everything in between. Keap reading to learn more about organization.</p>
                 </div>
               </div>
             </div>
@@ -19,11 +19,11 @@
             <div class="row-container one">
               <div class="wrap">
                 <div class="row-content text-content">
-                  <h4>Title Here</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                  <h4>Who we are</h4>
+    <p>We are a student-run, multidisciplinary organization whose mission is to design, build, and test a rover for the exploration of extraterrestrial environments and to assist astronauts on a mission to mars.</p>
                 </div>
                 <div class="row-content">
-                  <div class="block"></div>
+                  <div class="block one"></div>
                 </div>
               </div>
             </div>
@@ -31,11 +31,11 @@
             <div class="row-container two">
               <div class="wrap">
                 <div class="row-content">
-                  <div class="block"></div>
+                  <div class="block two"></div>
                 </div>
                 <div class="row-content text-content">
-                  <h4>Title Here</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                  <h4>What we do</h4>
+                  <p>We are a competition oriented team whose goal is to win the University Rover Challenge that takes place every year at NASA's Mars Desert Research Station near Hanksville, Utah. We bring all our team members together to make the best rover possible every year.</p>
                 </div>
               </div>
             </div>
@@ -43,11 +43,11 @@
             <div class="row-container three">
               <div class="wrap">
                 <div class="row-content text-content">
-                  <h4>Title Here</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                  <h4>Where we are</h4>
+                  <p>As a University of Michigan project team, we meet in the Wilson Student Team Project Center on North Campus. More specifically, our weekly team meetings are at noon in room 107 GFL every sunday. Feel free to stop by and see what we are up to.</p>
                 </div>
                 <div class="row-content">
-                  <div class="block"></div>
+                  <div class="block three"></div>
                 </div>
               </div>
             </div>
@@ -55,13 +55,13 @@
             <div class="join-donate-cta wrap">
               <div class="cta">
                 <h6>Join?</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button>Contact Us</button>
+                <p>Interested in joining MRover? It probably couldn't be any easier. Just show up to our sunday meeting at noon in 107 GFL (right behind the FXB) on north campus. If you want some more information from us, just click below.</p>
+                <button class="button-example">Contact Us</button>
               </div>
               <div class="cta">
                 <h6>Donate?</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button>Contact Us</button>
+                <p>Interested in helping us win the University Rover Challenge? Any little bit helps and we would greatly appreciate your support! Just click below and we would to talk about it.</p>
+                <button class="button-example">Contact Us</button>
               </div>
             </div>
 
