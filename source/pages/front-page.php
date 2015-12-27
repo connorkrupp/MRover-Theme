@@ -56,12 +56,12 @@
               <div class="cta">
                 <h6>Join?</h6>
                 <p>Interested in joining MRover? It probably couldn't be any easier. Just show up to our sunday meeting at noon in 107 GFL (right behind the FXB) on north campus. If you want some more information from us, just click below.</p>
-                <button class="button-example">Contact Us</button>
+               <a href="umrover.org/contact"><button class="button-example">Contact Us</button></a>
               </div>
               <div class="cta">
                 <h6>Donate?</h6>
                 <p>Interested in helping us win the University Rover Challenge? Any little bit helps and we would greatly appreciate your support! Just click below and we would to talk about it.</p>
-                <button class="button-example">Contact Us</button>
+                <a href="umrover.org/contact/"><button class="button-example">Contact us</button></a>
               </div>
             </div>
 

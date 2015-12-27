@@ -15,8 +15,8 @@
             <div class="hero">
               <div class="wrap">
                 <div class="hero-content">
-                  <h2>Title Here</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  <h2>Contact Us</h2>
+                  <p>We have a list of emails below, feel free to contact us and we will respond as soon as we can!</p>
                 </div>
               </div>
             </div>
@@ -35,16 +35,16 @@
               <a href="mailto:sdbriggs@umich.edu">sdbriggs@umich.edu</a>
               <h6>Vice President</h6>
               <p>Nick Wurtz</p>
-              <a href="mailto:sdbriggs@umich.edu">sdbriggs@umich.edu</a>
+              <a href="mailto:nwurtz@umich.edu">nwurtz@umich.edu</a>
               <h6>Chief Engineer</h6>
               <p>Joe Yanos<p>
-              <a href="mailto:sdbriggs@umich.edu">sdbriggs@umich.edu</a>
+              <a href="mailto:jgyanos@umich.edu">jgyanos@umich.edu</a>
               <h6>Treasurer</h6>
               <p>Sam Rumack<p>
-              <a href="mailto:sdbriggs@umich.edu">sdbriggs@umich.edu</a>
+              <a href="mailto:rumacsam@umich.edu">rumacsam@umich.edu</a>
               <h6>Information Services Officer</h6>
               <p>Connor Krupp</p>
-              <a href="mailto:sdbriggs@umich.edu">sdbriggs@umich.edu</a>
+              <a href="mailto:kruppcon@umich.edu">kruppcon@umich.edu</a>
             </div>
 
           </article>
