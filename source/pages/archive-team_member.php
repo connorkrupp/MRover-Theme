@@ -1,28 +1,23 @@
 <?php get_header(); ?>
 
-  <div id="content">
+  <div id="content" class="archive-team">
     <div id="inner-content" class="wrap cf">
       <main id="main" class="m-all t-all d-all cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-
-        <?php
-        the_archive_title( '<h1 class="page-title">', '</h1>' );
-        the_archive_description( '<div class="taxonomy-description">', '</div>' );
-        ?>
 
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
           <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
             <header class="entry-header article-header">
-              <h3 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+              <h3 class="h2 entry-title"><?php the_title(); ?></h3>
             </header>
 
             <section class="entry-content cf">
 		<?php $post_fields = get_post_custom(); ?>
 		<?php the_post_thumbnail('profile'); ?>
-		<p><?php echo get_post_meta( get_the_ID(), Subteam, true); ?></p>
-		<p><?php echo get_post_meta( get_the_ID(), Year, true); ?></p>
-		<p><?php echo get_post_meta( get_the_ID(), Major, true); ?></p>
+		<p><strong>Subteam:</strong> <?php echo get_post_meta( get_the_ID(), Subteam, true); ?></p>
+		<p><strong>Year:</strong> <?php echo get_post_meta( get_the_ID(), Year, true); ?></p>
+		<p><strong>Major:</strong> <?php echo get_post_meta( get_the_ID(), Major, true); ?></p>
             </section>
 
             <footer class="article-footer"></footer>
