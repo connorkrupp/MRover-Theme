@@ -1,8 +1,14 @@
 .contact-page {
+  .hero {
+    background-image: url("images/contact-background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+  }
   .contact-info {
     text-align: center;
     padding-bottom: 30px;
-    
+
     h4 {
       font-size: 24px;
     }

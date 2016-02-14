@@ -4,6 +4,9 @@
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var del = require('del');
+var sass = require('gulp-sass');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
 var runSequence = require('run-sequence');
 var browserSync = require('browser-sync');
 var pagespeed = require('psi');
@@ -33,32 +36,14 @@ gulp.task('jshint', function () {
 // Optimize images
 gulp.task('images', function () {
   return gulp.src('source/images/*')
-    .pipe($.cache($.imagemin({
-      progressive: true,
-      interlaced: true
-    })))
-    .pipe(gulp.dest('app/library/css/images/'))
-    .pipe($.size({title: 'images'}));
+		    .pipe(gulp.dest('app/library/css/images/'));
 });
 
 // Compile and automatically prefix stylesheets
 gulp.task('styles', function () {
-  // For best performance, don't add Sass partials to `gulp.src`
-  return gulp.src([
-    'source/scss/style.scss'
-  ])
-    .pipe($.sourcemaps.init())
-    .pipe($.sass({
-      precision: 10,
-      onError: console.error.bind(console, 'Sass error:')
-    }))
-    .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
-    .pipe($.sourcemaps.write())
-    .pipe(gulp.dest('.tmp/styles'))
-    // Concatenate and minify styles
-    .pipe($.if('*.css', $.csso()))
-    .pipe(gulp.dest('app/library/css/'))
-    .pipe($.size({title: 'styles'}));
+    return gulp.src('source/scss/style.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest('./app/library/css/'));
 });
 
 gulp.task('build-root', function() {
