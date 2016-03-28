@@ -6,7 +6,12 @@ Stylesheet: Front Page Stylesheet
 ******************************************************************/
 
 .about-page {
-
+  .hero {
+    background-image: url("images/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
   .row-container {
 
     &.one {

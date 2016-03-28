@@ -12,40 +12,7 @@
 
           <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <div class="hero">
-              <div class="wrap">
-                <div class="hero-content">
-                  <h2>Contact Us</h2>
-                  <p>We have a list of emails below, feel free to contact us and we will respond as soon as we can!</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="contact-info wrap">
-
-              <h4>The Team</h4>
-              <a href="mailto:rover@umich.edu">rover@umich.edu</a>
-              <p>University of Michigan</p>
-              <p>Wilson Student Team Project Center</p>
-              <p>2603 Draper, Ann Arbor, MI 48109-2101</p>
-
-              <h4>Executive Board</h4>
-              <h6>President</h6>
-              <p>Scott Briggs</p>
-              <a href="mailto:sdbriggs@umich.edu">sdbriggs@umich.edu</a>
-              <h6>Vice President</h6>
-              <p>Nick Wurtz</p>
-              <a href="mailto:nwurtz@umich.edu">nwurtz@umich.edu</a>
-              <h6>Chief Engineer</h6>
-              <p>Joe Yanos<p>
-              <a href="mailto:jgyanos@umich.edu">jgyanos@umich.edu</a>
-              <h6>Treasurer</h6>
-              <p>Sam Rumack<p>
-              <a href="mailto:rumacsam@umich.edu">rumacsam@umich.edu</a>
-              <h6>Information Services Officer</h6>
-              <p>Connor Krupp</p>
-              <a href="mailto:kruppcon@umich.edu">kruppcon@umich.edu</a>
-            </div>
+            <?php the_content() ?>
 
           </article>
 

@@ -1,22 +1,20 @@
 <?php
 /*
- Template Name: About Page
+ Template Name: Home Page
 */
 ?>
 <?php get_header(); ?>
 
-  <div id="content" class="about-page">
+  <div id="content" class="front-page">
     <div id="inner-content" class="cf">
       <main id="main" class="m-all t-all d-all cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+        <?php if (have_posts()) : the_post(); ?>
 
           <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
             <?php the_content() ?>
 
-          </article>
-
-        <?php endwhile; else : ?>
+        <?php else : ?>
 
           <article id="post-not-found" class="hentry cf">
               <header class="article-header">
